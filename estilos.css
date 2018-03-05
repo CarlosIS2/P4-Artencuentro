@@ -1,9 +1,28 @@
-h1{
-    color: darkslategrey;
-    font-size: 60px;
-    font-style: oblique;
-    text-align: center;
+.barraNavegacion{
+    background-color: cornflowerblue;
+    display: flex;
 }
-header{
-    background: lightblue;
+
+.barraNavegacion ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
+.barraNavegacion ul li{
+    display: inline-block;
+}
+
+.barraNavegacion ul li a{
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.barraNavegacion ul li a:hover{
+    background-color: darkseagreen;
+}
+
+
+
