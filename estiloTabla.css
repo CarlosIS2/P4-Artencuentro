@@ -44,6 +44,12 @@ th, td{
     padding: 20px;
 }
 
+td a{
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
 tr:hover td{
     background-color: lightblue;
 }

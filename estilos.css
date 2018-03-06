@@ -11,6 +11,7 @@ body{
 .portada{
     width: 800px;
     height: 500px;
+    margin-left: 10px;
 }
 
 .barraNavegacion{
@@ -53,11 +54,14 @@ body{
 }
 
 .titulo{
+    margin-left: 10px;
     font-style: italic;
     font-size: 100px;
 }
 
 p{
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 26px;
     text-align: justify;
 }
@@ -128,4 +132,15 @@ textarea{
     width: 800px;
     height: 200px;
     margin-left: 10px;
+}
+
+.imagenTrabajo{
+    border-style: solid;
+    width: 800px;
+    height: 500px;
+}
+
+.caracteristicasImagen{
+    margin-left: 10px;
+    font-size: 25px;
 }
