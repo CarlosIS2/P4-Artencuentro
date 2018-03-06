@@ -8,6 +8,11 @@ body{
     font-family: Arial;
 }
 
+.portada{
+    width: 800px;
+    height: 500px;
+}
+
 .barraNavegacion{
     background-color: black;
     margin: 0;
@@ -81,3 +86,46 @@ footer{
     text-decoration: none;
 }
 
+.formularioContacto{
+    overflow: hidden;
+    background-color: lightsteelblue;
+    font-size: 25px;
+    height: 550px;
+}
+
+label{
+    padding-left: 10px;
+    float: left;
+}
+
+input{
+    border-color: cornflowerblue;
+    border: 2px double lightgray;
+    border-radius: 3px;
+    float: left;
+    width: 200px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+input[type=email]{
+    width: 400px;
+}
+
+input[type=radio]{
+    width: 25px;
+    margin-left: 10px;
+}
+
+input[type=submit]{
+    height: auto;
+}
+
+textarea{
+    border-color: cornflowerblue;
+    border: 3px double lightgray;
+    border-radius: 3px;
+    width: 800px;
+    height: 200px;
+    margin-left: 10px;
+}
