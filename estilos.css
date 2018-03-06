@@ -1,3 +1,4 @@
+/*CSS para la portada, la página de contacto y la de los trabajos*/
 *{
     padding: 0px;
     margin: 0px;
@@ -14,6 +15,7 @@ body{
     margin-left: 10px;
 }
 
+/*CSS de la barra de navegación que formará nuestro menú*/
 .barraNavegacion{
     background-color: black;
     margin: 0;
@@ -25,6 +27,7 @@ body{
 
 .barraNavegacion ul li{
     display: inline-block;
+    font-size: 20px;
 }
 
 .barraNavegacion ul li a{
@@ -67,7 +70,10 @@ p{
 }
 
 footer{
-    padding: 200px;
+    background-color: lightsteelblue;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -89,6 +95,8 @@ footer{
     opacity: 0.5;
     text-decoration: none;
 }
+
+/*CSS para nuestro formulario*/
 
 .formularioContacto{
     overflow: hidden;
@@ -133,6 +141,8 @@ textarea{
     height: 200px;
     margin-left: 10px;
 }
+
+/*CSS para nuestras páginas de trabajos*/
 
 .imagenTrabajo{
     border-style: solid;
