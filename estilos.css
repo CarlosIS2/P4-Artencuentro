@@ -5,11 +5,11 @@
 
 body{
     background-color: whitesmoke;
+    font-family: Arial;
 }
 
 .barraNavegacion{
     background-color: black;
-    font-family: Arial;
     margin: 0;
 }
 
@@ -48,7 +48,6 @@ body{
 }
 
 .titulo{
-    font-family: Arial;
     font-style: italic;
     font-size: 100px;
 }
@@ -81,3 +80,4 @@ footer{
     opacity: 0.5;
     text-decoration: none;
 }
+

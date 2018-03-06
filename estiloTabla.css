@@ -1,0 +1,62 @@
+body{
+    background-color: whitesmoke;
+    font-family: Arial;
+}
+
+.contenedorTabla{
+    margin: auto;
+    width: auto;
+}
+
+table{
+    background-color: whitesmoke;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+footer{
+    padding: auto;
+    text-align: center;
+}
+
+.enlace{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: helvetica;
+    font-style: italic;
+    border: 3px double lightgrey;
+    border-radius: 15px;
+}
+
+.enlace:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 20px;
+}
+
+tr:hover td{
+    background-color: lightblue;
+}
+
+thead{
+    background-color: mediumseagreen;
+    color: white;
+    border-bottom: 5px black;
+}
+
+caption{
+    font-family: Arial;
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+}
