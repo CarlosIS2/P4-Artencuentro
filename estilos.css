@@ -1,12 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
 .barraNavegacion{
-    background-color: cornflowerblue;
-    display: flex;
+    background-color: black;
+    font-family: Arial;
+    margin: 0;
 }
 
 .barraNavegacion ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .barraNavegacion ul li{
@@ -14,15 +22,62 @@
 }
 
 .barraNavegacion ul li a{
-    color: black;
+    background-color: black;
+    color: white;
     display: block;
-    padding: 10px;
+    padding: 20px 60px;
     text-decoration: none;
 }
 
 .barraNavegacion ul li a:hover{
-    background-color: darkseagreen;
+    background-color: lightgrey;
 }
 
+.barraNavegacion ul li ul{
+    display: none;
+    position: absolute;
+    float: left;
+}
 
+.barraNavegacion ul li:hover > ul{
+    display: block;
+}
 
+.contacto{
+    float: right;
+}
+
+.titulo{
+    font-family: Arial;
+    font-style: italic;
+    font-size: 100px;
+}
+
+p{
+    font-size: 26px;
+    text-align: justify;
+}
+
+footer{
+    padding: 200px;
+    text-align: center;
+}
+
+.enlace{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: helvetica;
+    font-style: italic;
+    border: 3px double lightgrey;
+    border-radius: 15px;
+}
+
+.enlace:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
